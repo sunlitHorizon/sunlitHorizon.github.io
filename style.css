@@ -1,17 +1,5 @@
-body {
+html {
   background-color: black;
-  color: white;
-  font-family: Courier;
-}
-a {
-  color: white;
-  font-family: Courier;
-}
-p {
-  color: white;
-  font-family: Courier;
-}
-h1 {
   color: white;
   font-family: Courier;
 }
