@@ -1,7 +1,7 @@
-const Days = document.getElementById('days');
-const Hours = document.getElementById('hours');
-const Minutes = document.getElementById('minutes');
-const Seconds = document.getElementById('seconds');
+const days = document.getElementById('days');
+const hours = document.getElementById('hours');
+const minutes = document.getElementById('minutes');
+const seconds = document.getElementById('seconds');
 
 const targetDate = new Date("April 11 2025 22:00:00").getTime();
 
@@ -14,16 +14,16 @@ function timer () {
     const minutes = Math.floor(distance / 1000 / 60) % 60;
     const seconds = Math.floor(distance / 1000) % 60;
 
-    Days.innerHTML = days;
-    Hours.innerHTML = hours;
-    Minutes.innerHTML = minutes;
-    Seconds.innerHTML = seconds;
+    days.innerHTML = days;
+    hours.innerHTML = hours;
+    minutes.innerHTML = minutes;
+    seconds.innerHTML = seconds;
 
     if(distance < 0){
-        Days.innerHTML = "00";
-        Hours.innerHTML = "00";
-        Minutes.innerHTML = "00";
-        Seconds.innerHTML = "00";
+        days.innerHTML = "00";
+        hours.innerHTML = "00";
+        minutes.innerHTML = "00";
+        seconds.innerHTML = "00";
     }
 }
 
