@@ -27,4 +27,4 @@ function timer () {
     }
 }
 
-setInterval(timer, 1000);
+setInterval(timer, 1);
